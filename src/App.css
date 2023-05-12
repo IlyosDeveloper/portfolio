@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css2?family=Inder&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inder", sans-serif;
+  background: #ffffff;
+}
+
+html {
+  height: 100vh;
+  /* overflow: hidden; */
+}
+main {
+  flex-grow: 1;
+}
+.bg-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)),
+    url("./assets/images/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+.sitenav-item {
+  position: relative;
+}
+
+.sitenav-item:hover .underline {
+  width: 100%;
+}
+.underline {
+  height: 2px;
+  width: 0%;
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  background: #609abc;
+  transition: all 0.5s;
+}
+.title-1 h2 {
+  font-style: italic;
+  font-size: 18px;
+  background-color: rgb(183, 179, 179);
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding-right: 2px;
+}
+.title-2 h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.linie {
+  width: 100%;
+  border-bottom: 2px dotted #1a4040;
+}
+.main-bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+.contact-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("./assets/images/social-media-tips.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 280px;
+}
+.portfolio-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("./assets/images/my-projects.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 280px;
+}
+.about-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("./assets/images/about-me.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 280px;
+}
+/* text */
+.hello {
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3),
+    0 0 3px rgba(255, 255, 255, 0.3);
+}
+.social-link li {
+  width: 600px;
+}
+.social-link a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: aliceblue;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 10px;
+}
+.social-link a:hover {
+  background-color: #c7b6cb;
+}
+.social-link span {
+  margin-right: 10px;
+}
+.social-link p {
+  margin-right: auto;
+}
+.animation {
+  height: 50px;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  margin-bottom: 2.81rem;
+  display: inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color: #20a7d8;
+}
+.second div {
+  background-color: #cd921e;
+}
+.third div {
+  background-color: #20a7d8;
+}
+
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -5.62rem;
+  }
+  30% {
+    margin-top: -5.62rem;
+  }
+  40% {
+    margin-top: -11.24rem;
+  }
+  60% {
+    margin-top: -11.24rem;
+  }
+  70% {
+    margin-top: -5.62rem;
+  }
+  80% {
+    margin-top: -5.62rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+/* contact bg */
+.globes {
+  width: 450px;
+  height: 450px;
+  background: url("./assets/images/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

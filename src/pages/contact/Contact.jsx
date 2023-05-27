@@ -10,7 +10,7 @@ import { BsFacebook, BsGithub, BsPhoneVibrateFill } from "react-icons/bs";
 
 function Contact() {
   return (
-    <div>
+    <div id="contact">
       <div className='contact-bg pt-40 text-white text-4xl mb-20'>
         <div>
           <h1 className='uppercase text-center'>

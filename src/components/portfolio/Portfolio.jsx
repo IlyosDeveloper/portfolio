@@ -9,7 +9,7 @@ import word from "../../assets/images/words.png";
 function Portfolio() {
   const [showInfo, setShowInfo] = useState(false);
   return (
-    <div>
+    <div id="portfolio">
       <div className='portfolio-bg pt-32 text-white text-4xl mb-10'>
         <div>
           <h1 className='uppercase text-center'>

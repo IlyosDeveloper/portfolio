@@ -7,7 +7,7 @@ function About() {
   const [showText, setShowText] = useState(false);
   return (
     <div>
-      <div className='about-bg text-white text-4xl mb-10 pt-32'>
+      <div id="about" className='about-bg text-white text-4xl mb-10 pt-32'>
         <h1 className='uppercase text-center'>
           I'm glad you want to get to know me
         </h1>

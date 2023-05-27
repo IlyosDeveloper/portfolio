@@ -11,18 +11,18 @@ function Footer() {
       <div className='flex items-center justify-between container max-w-7xl m-auto'>
         <div className='flex flex-col uppercase text-slate-400 text-left gap-1'>
           <h1 className='text-gray-50'>site navigation</h1>
-          <Link className='hover:text-white' to={"/"}>
+          <a className='hover:text-white' href="#home">
             Home
-          </Link>
-          <Link className='hover:text-white' to={"/about"}>
+          </a>
+          <a className='hover:text-white' href="#about">
             About
-          </Link>
-          <Link className='hover:text-white' to={"/portfolio"}>
+          </a>
+          <a className='hover:text-white' href="#portfolio">
             Portfolio
-          </Link>
-          <Link className='hover:text-white' to={"/contact"}>
+          </a>
+          <a className='hover:text-white' href="#contact">
             Contact
-          </Link>
+          </a>
         </div>
         <div className='flex items-center'>
           <h1 className='text-sky-700 font-bold italic text-3xl'>WEB</h1>
